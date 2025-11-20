@@ -12,6 +12,7 @@
 
 &trackball {
     // automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -54,6 +55,16 @@
         MiddleClick {
             bindings = <&mkp MB3>;
             key-positions = <18 20>;
+        };
+
+        SingleQuote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <5 17>;
+        };
+
+        DoubleQuote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <17 29>;
         };
     };
 
