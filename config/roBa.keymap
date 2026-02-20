@@ -59,12 +59,12 @@
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <9 21>;
+            key-positions = <33 21>;
         };
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <21 33>;
+            key-positions = <21 9>;
         };
     };
 
