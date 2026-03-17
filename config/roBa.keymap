@@ -66,6 +66,16 @@
             bindings = <&kp COLON>;
             key-positions = <21 9>;
         };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <7 19>;
+        };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <31 19>;
+        };
     };
 
     macros {
